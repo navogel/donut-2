@@ -30,6 +30,11 @@ document.querySelector("#donut-results").addEventListener("click", event => {
 				});
 			});
 		});
+	} else if (event.target.id.startsWith("editDonut--")) {
+		const donutToEdit = event.target.id.split("--")[1];
+		API.getDonut(donutToEdit).then(data => {
+			console.log(data);
+		});
 	}
 });
 

@@ -1,14 +1,6 @@
 {
   "donuts": [
     {
-      "name": "My Third Donut",
-      "type": "yeast",
-      "flavor": "chocolate",
-      "glaze": "chocolate",
-      "topping": "rainbow sprinkles",
-      "id": 3
-    },
-    {
       "name": "Baby's first donut",
       "type": "cake",
       "flavor": "strawberry",

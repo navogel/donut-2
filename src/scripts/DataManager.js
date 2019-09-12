@@ -41,6 +41,11 @@ const API = {
 		return fetch(`http://localhost:8088/donuts/${donutId}`, {
 			method: "DELETE"
 		});
+	},
+	getDonut: donutId => {
+		return fetch(`http://localhost:8088/donuts/${donutId}`).then(response =>
+			response.json()
+		);
 	}
 };
 

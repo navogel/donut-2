@@ -12,6 +12,7 @@ const makeDonutHTMLComponent = donut => {
         <h4>Donut Topping:</h4>
         <p>${donut.topping}</p>
         <button type="button" id="deleteDonut--${donut.id}">DELETE ME</button>
+        <button type="button" id="editDonut--${donut.id}">EDIT ME</button>
     </div>
     `;
 };
