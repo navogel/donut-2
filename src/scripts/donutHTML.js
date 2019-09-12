@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 // Function that defines what a donut should look like in HTML
 const makeDonutHTMLComponent = donut => {
 	return `
-=======
-/*
-    It represents what a donut should look like in HTML
-*/
-
-const donutHTML = (donut) => {
-    return `
->>>>>>> master
     <div class="donut">
         <h3>${donut.name}</h3>
         <h4>Donut Type:</h4>
@@ -25,8 +16,4 @@ const donutHTML = (donut) => {
     `;
 };
 
-<<<<<<< HEAD
 export default makeDonutHTMLComponent;
-=======
-export default donutHTML
->>>>>>> master
